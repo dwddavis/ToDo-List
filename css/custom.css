@@ -2,12 +2,3 @@ h1{
   color: red;
   text-align: center;
 }
-
-input{
-  max-width: 100%;
-}
-
-.lineItem{
-  margin-top: 10px;
-  margin-bottom: 10px;
-}

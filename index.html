@@ -21,22 +21,29 @@
 
   <body>
 
-    <div class = "container">
+    <div class = "container" style = 'background-color:lightgray; width:50vw;'>
       <div class = "row">
         <div class = "col-xs-12">
           <h1> To Do List </h1>
+          <hr>
         </div>
       </div>
-      <div class='row lineItem'>
+      <div class='row lineItem' style = " padding-bottom:5px">
         <div class= "col-xs-9">
-          <article><input type="text" value="Add new things"/></article>
+          <article><input type="text" placeholder="Add Something New" style='width:35vw'/></article>
         </div>
-        <div class= "col-xs-3 py-0 my-0">
+        <div class= "col-xs-3">
           <button onclick="addTask()">ADD</button>
         </div>
       </div>
       <div id="todo-list">
       </div>
+    <!--  <footer class= ''>
+        <div class= 'col-12'>
+          <hr>
+            <p class = 'bottom'>  ALL     <span> COMPLETE     </span> <span>     INCOMPLETE </span> </p>
+        </div>
+      </footer>-->
     </div>
   </body>
 </html>
